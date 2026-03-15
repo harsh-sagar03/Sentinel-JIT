@@ -56,17 +56,7 @@ Narrative report describing attacker behavior.
 **• Incident Report Export**
 Downloadable report summarizing the attack session.
 
-# Future Improvements
-
-Possible directions for extending the system:
-
-1. Real SSH or web-server log ingestion
-2. Real-time monitoring dashboard
-3. Geo-IP attacker location mapping
-4. Multi-attacker session tracking
-5. Automated PDF incident reports
-
-##  Output Demonstration
+#  Output Demonstration
 
 Sentinel-JIT continuously monitors suspicious activity, calculates a risk score, and automatically deploys a decoy environment when the risk threshold is exceeded.  
 The following screenshots demonstrate the system behavior during different stages of an attack.
@@ -154,4 +144,14 @@ Attack stages identified may include:
 </tr>
 </table>
 
+
+# Future Improvements
+
+Possible directions for extending the system:
+
+1. Real SSH or web-server log ingestion
+2. Real-time monitoring dashboard
+3. Geo-IP attacker location mapping
+4. Multi-attacker session tracking
+5. Automated PDF incident reports
 ---
