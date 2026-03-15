@@ -41,3 +41,13 @@ Narrative report describing attacker behavior.
 
 **• Incident Report Export**
 Downloadable report summarizing the attack session.
+
+# Future Improvements
+
+Possible directions for extending the system:
+
+1. Real SSH or web-server log ingestion
+2. Real-time monitoring dashboard
+3. Geo-IP attacker location mapping
+4. Multi-attacker session tracking
+5. Automated PDF incident reports
