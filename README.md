@@ -162,4 +162,5 @@ Possible directions for extending the system:
 # Conclusion
 
 Sentinel-JIT demonstrates how deception-based cybersecurity can provide valuable threat intelligence instead of immediately blocking attackers. By combining risk scoring, behavioral monitoring, and AI-assisted analysis, the system observes attacker activity inside a controlled decoy environment and generates meaningful incident reports. This prototype highlights the potential of integrating automated analysis and interactive dashboards to better understand attacker strategies and improve defensive decision-making.
+
 ---
