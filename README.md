@@ -65,3 +65,93 @@ Possible directions for extending the system:
 3. Geo-IP attacker location mapping
 4. Multi-attacker session tracking
 5. Automated PDF incident reports
+
+##  Output Demonstration
+
+Sentinel-JIT continuously monitors suspicious activity, calculates a risk score, and automatically deploys a decoy environment when the risk threshold is exceeded.  
+The following screenshots demonstrate the system behavior during different stages of an attack.
+
+---
+
+### 1. Normal Monitoring State
+
+<table>
+<tr>
+<td width="60%">
+<img src="lowrisk.jpg" width="100%">
+</td>
+<td width="40%">
+
+**System Status**
+
+- Attacker IP detected
+- Failed login attempts tracked
+- Risk score calculated
+- Risk level classification
+- Decoy environment status
+
+When the risk score is **below the threshold**, the system remains in monitoring mode and **no decoy is deployed**.
+
+</td>
+</tr>
+</table>
+
+---
+
+### 2. Decoy Deployment Trigger
+
+<table>
+<tr>
+<td width="60%">
+<img src="highrisk.jpg" width="100%">
+</td>
+<td width="40%">
+
+**Automated Response**
+
+When suspicious activity increases:
+
+- Risk level escalates to **HIGH**
+- System automatically **deploys a decoy environment**
+- Attacker is **silently redirected**
+- All commands are **captured and logged**
+- Security team receives **alerts**
+
+</td>
+</tr>
+</table>
+
+---
+
+### 3. Attack Intelligence & Incident Report
+
+<table>
+<tr>
+<td width="60%">
+<img src="demonstration.jpg" width="100%">
+</td>
+<td width="40%">
+
+**Threat Intelligence Generated**
+
+The system analyzes attacker behavior and produces:
+
+- Command execution timeline
+- Attack stages detected
+- AI-generated analyst report
+- Malware activity detection
+- Recommended incident response actions
+
+Attack stages identified may include:
+
+- Reconnaissance  
+- Discovery  
+- Credential Access  
+- Malware Deployment  
+- Privilege Escalation  
+
+</td>
+</tr>
+</table>
+
+---
