@@ -1,0 +1,5 @@
+![GitHub stars](https://img.shields.io/github/stars/harsh-sagar03/Sentinel-JIT)
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/UI-Streamlit-red?logo=streamlit&logoColor=white)
+![AI](https://img.shields.io/badge/AI-Google%20Gemini-orange?logo=google&logoColor=white)
+![Status](https://img.shields.io/badge/Project-Hackathon%20Prototype-yellow)
