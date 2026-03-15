@@ -26,6 +26,20 @@ The system simulates a modern cyber-defense workflow.
 
 This approach prioritizes threat intelligence collection rather than immediate blocking.
 
+## Project Structure
+
+| File | Description |
+|------|-------------|
+| app.py | Main entry point for the Sentinel-JIT system. |
+| risk_engine.py | Calculates risk scores for suspicious events. |
+| alert_engine.py | Sends alerts when high-risk activity is detected. |
+| ai_analysis.py | AI-based analysis of attacker commands and logs. |
+| attack_simulator.py | Simulates attacker behavior for testing. |
+| live_sim.py | Runs live interaction between attacker simulation and system. |
+| run_demo.py | Demonstrates the full attack detection workflow. |
+| run_dashboard.sh | Starts the monitoring dashboard. |
+| UNDERSTANDING.md | Documentation explaining system architecture. |
+
 # Dashboard Features
 
 The Streamlit dashboard provides:
