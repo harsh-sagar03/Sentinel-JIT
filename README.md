@@ -9,3 +9,19 @@
 <img src="https://img.shields.io/badge/Project-Hackathon%20Prototype-6A5ACD?style=for-the-badge"/>
 </p>
 
+**Sentinel-JIT** is a cybersecurity prototype that studies attackers instead of immediately blocking them.
+
+Traditional systems block threats instantly, which prevents defenders from understanding attacker intent. Sentinel-JIT deploys a controlled decoy environment when suspicious activity is detected, allowing the attacker to continue interacting while their behavior is logged and analyzed.
+
+The system then generates structured intelligence reports describing the attacker’s activity and objectives.
+
+How It Works ?
+
+The system simulates a modern cyber-defense workflow.
+	1.	Suspicious login attempts are detected.
+	2.	A risk scoring engine evaluates threat severity.
+	3.	If the risk threshold is exceeded, a decoy environment is triggered.
+	4.	The attacker’s commands are logged and analyzed.
+	5.	AI classification generates an incident report describing attack stages.
+
+This approach prioritizes threat intelligence collection rather than immediate blocking.
