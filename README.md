@@ -17,12 +17,9 @@ The system then generates structured intelligence reports describing the attacke
 
 # How It Works ?
 
-The system simulates a modern cyber-defense workflow.
-1.	Suspicious login attempts are detected.
-2.	A risk scoring engine evaluates threat severity.
-3.	If the risk threshold is exceeded, a decoy environment is triggered.
-4.	The attacker’s commands are logged and analyzed.
-5.	AI classification generates an incident report describing attack stages.
+<p align="center">
+<img src="https://raw.githubusercontent.com/harsh-sagar03/Sentinel-JIT/Yash6163-patch-1/Flowchart.png" width="900"/>
+</p>
 
 This approach prioritizes threat intelligence collection rather than immediate blocking.
 
@@ -51,3 +48,109 @@ Possible directions for extending the system:
 3. Geo-IP attacker location mapping
 4. Multi-attacker session tracking
 5. Automated PDF incident reports
+
+
+
+## Project Structure
+
+| File | Description |
+|------|-------------|
+| app.py | Main entry point for the Sentinel-JIT system. |
+| risk_engine.py | Calculates risk scores for suspicious events. |
+| alert_engine.py | Sends alerts when high-risk activity is detected. |
+| ai_analysis.py | AI-based analysis of attacker commands and logs. |
+| attack_simulator.py | Simulates attacker behavior for testing. |
+| live_sim.py | Runs live interaction between attacker simulation and system. |
+| run_demo.py | Demonstrates the full attack detection workflow. |
+| run_dashboard.sh | Starts the monitoring dashboard. |
+| UNDERSTANDING.md | Documentation explaining system architecture. |
+
+##  Output Demonstration
+
+Sentinel-JIT continuously monitors suspicious activity, calculates a risk score, and automatically deploys a decoy environment when the risk threshold is exceeded.  
+The following screenshots demonstrate the system behavior during different stages of an attack.
+
+---
+
+### 1. Normal Monitoring State
+
+<table>
+<tr>
+<td width="60%">
+<img src="lowrisk.jpg" width="100%">
+</td>
+<td width="40%">
+
+**System Status**
+
+- Attacker IP detected
+- Failed login attempts tracked
+- Risk score calculated
+- Risk level classification
+- Decoy environment status
+
+When the risk score is **below the threshold**, the system remains in monitoring mode and **no decoy is deployed**.
+
+</td>
+</tr>
+</table>
+
+---
+
+### 2. Decoy Deployment Trigger
+
+<table>
+<tr>
+<td width="60%">
+<img src="highrisk.jpg" width="100%">
+</td>
+<td width="40%">
+
+**Automated Response**
+
+When suspicious activity increases:
+
+- Risk level escalates to **HIGH**
+- System automatically **deploys a decoy environment**
+- Attacker is **silently redirected**
+- All commands are **captured and logged**
+- Security team receives **alerts**
+
+</td>
+</tr>
+</table>
+
+---
+
+### 3. Attack Intelligence & Incident Report
+
+<table>
+<tr>
+<td width="60%">
+<img src="demonstration.jpg" width="100%">
+</td>
+<td width="40%">
+
+**Threat Intelligence Generated**
+
+The system analyzes attacker behavior and produces:
+
+- Command execution timeline
+- Attack stages detected
+- AI-generated analyst report
+- Malware activity detection
+- Recommended incident response actions
+
+Attack stages identified may include:
+
+- Reconnaissance  
+- Discovery  
+- Credential Access  
+- Malware Deployment  
+- Privilege Escalation  
+
+</td>
+</tr>
+</table>
+
+---
