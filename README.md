@@ -18,15 +18,19 @@ The system then generates structured intelligence reports describing the attacke
 # How It Works ?
 
 The system simulates a modern cyber-defense workflow.
-1.	Suspicious login attempts are detected.
-2.	A risk scoring engine evaluates threat severity.
-3.	If the risk threshold is exceeded, a decoy environment is triggered.
-4.	The attacker’s commands are logged and analyzed.
-5.	AI classification generates an incident report describing attack stages.
+1. System monitoring detects suspicious activity.
+2. A risk scoring engine evaluates the severity of the behavior.
+3. If the behavior is highly suspicious, a decoy system is launched.
+4. The suspicious actor is redirected into the decoy.
+5. The system immediately sends an alert to security personnel.
+6. The attacker interacts with the decoy system.
+7. All actions are recorded and analyzed.
+8. A security intelligence report is generated.
+9. The decoy environment is destroyed.
 
 This approach prioritizes threat intelligence collection rather than immediate blocking.
 
-## Project Structure
+# Project Structure
 
 | File | Description |
 |------|-------------|
