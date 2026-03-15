@@ -25,3 +25,19 @@ The system simulates a modern cyber-defense workflow.
 5.	AI classification generates an incident report describing attack stages.
 
 This approach prioritizes threat intelligence collection rather than immediate blocking.
+
+# Dashboard Features
+
+The Streamlit dashboard provides:
+
+**• Threat Overview**
+Displays source IP, failed login count, command activity, risk score, and decoy trigger status.
+
+**• Command Timeline**
+Interactive table showing attacker commands and classified attack stages.
+
+**• AI Attack Analysis**
+Narrative report describing attacker behavior.
+
+**• Incident Report Export**
+Downloadable report summarizing the attack session.
