@@ -65,14 +65,14 @@ Possible directions for extending the system:
 | run_dashboard.sh | Starts the monitoring dashboard. |
 | UNDERSTANDING.md | Documentation explaining system architecture. |
 
-## 📊 Output Demonstration
+##  Output Demonstration
 
 Sentinel-JIT continuously monitors suspicious activity, calculates a risk score, and automatically deploys a decoy environment when the risk threshold is exceeded.  
 The following screenshots demonstrate the system behavior during different stages of an attack.
 
 ---
 
-### 1️⃣ Normal Monitoring State
+### 1. Normal Monitoring State
 
 <table>
 <tr>
@@ -97,7 +97,7 @@ When the risk score is **below the threshold**, the system remains in monitoring
 
 ---
 
-### 2️⃣ Decoy Deployment Trigger
+### 2. Decoy Deployment Trigger
 
 <table>
 <tr>
@@ -122,7 +122,7 @@ When suspicious activity increases:
 
 ---
 
-### 3️⃣ Attack Intelligence & Incident Report
+### 3. Attack Intelligence & Incident Report
 
 <table>
 <tr>
