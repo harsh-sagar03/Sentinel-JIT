@@ -51,3 +51,8 @@ Possible directions for extending the system:
 3. Geo-IP attacker location mapping
 4. Multi-attacker session tracking
 5. Automated PDF incident reports
+
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/harsh-sagar03/Sentinel-JIT/Yash6163-patch-1/Flowchart.png" width="900"/>
+</p>
