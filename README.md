@@ -15,7 +15,7 @@ Traditional systems block threats instantly, which prevents defenders from under
 
 The system then generates structured intelligence reports describing the attacker’s activity and objectives.
 
-How It Works ?
+# How It Works ?
 
 The system simulates a modern cyber-defense workflow.
 	1.	Suspicious login attempts are detected.
